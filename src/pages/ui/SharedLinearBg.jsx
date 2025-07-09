@@ -1,4 +1,4 @@
-import linearBg from '../../assets/images/bg-linear1.png';
+import linearBg from '../../assets/images/linear-bg2.png';
 
 const SharedLinearBg = () => {
   return (
