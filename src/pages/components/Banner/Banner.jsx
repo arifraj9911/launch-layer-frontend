@@ -9,7 +9,11 @@ const Banner = () => {
         <div className="text-white col-span-2">
           <h1 className="text-4xl md:text-[56px] font-bold leading-snug">
             We Don't Just Build Websites <br />
-            We Build <span className="text-[#966C9E]">Launchpads 🚀</span>
+            We Build {" "}
+            <span className="bg-gradient-to-b from-[#966C9E] to-[#F3B880] bg-clip-text text-transparent">
+              Launchpads 
+            </span>
+            🚀
           </h1>
           <p className="text-gray-300 mt-4">
             Transform your ideas into powerful digital products. From MVP
@@ -27,7 +31,11 @@ const Banner = () => {
         </div>
 
         <div className="mt-10 md:mt-0">
-          <img src={bannerSide} alt="Rocket Banner" className="w-full max-w-md" />
+          <img
+            src={bannerSide}
+            alt="Rocket Banner"
+            className="w-full max-w-md"
+          />
         </div>
       </div>
 

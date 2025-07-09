@@ -2,10 +2,10 @@ import WhyChooseServiceCard from "../../ui/WhyChooseServiceCard";
 import whyChooseImg from "../../../assets/images/why_choose.svg";
 import SharedLinearBg from "../../ui/sharedLinearBg";
 
-import deliveryIcon from '../../../assets/images/icons/delivery.svg'
-import strategyIcon from '../../../assets/images/icons/strategy.svg'
-import expertiseIcon from '../../../assets/images/icons/expertise.svg'
-import founderIcon from '../../../assets/images/icons/founder.svg'
+import deliveryIcon from "../../../assets/images/icons/delivery.svg";
+import strategyIcon from "../../../assets/images/icons/strategy.svg";
+import expertiseIcon from "../../../assets/images/icons/expertise.svg";
+import founderIcon from "../../../assets/images/icons/founder.svg";
 
 const services = [
   {
@@ -43,7 +43,10 @@ const WhyChooseUs = () => {
           {/* content */}
           <div>
             <h2 className="text-[48px] font-bold mb-4">
-              Why Choose <span className="text-[#966C9E]">LaunchLayer</span>
+              Why Choose{" "}
+              <span className="bg-gradient-to-b from-[#966C9E] to-[#F3B880] bg-clip-text text-transparent">
+                LaunchLayer
+              </span>
             </h2>
             <p className="text-[#D1D1D1] text-lg font-normal mb-10">
               Transform your ideas into powerful digital products. From MVP

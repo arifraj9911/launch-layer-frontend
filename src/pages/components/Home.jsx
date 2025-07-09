@@ -3,6 +3,7 @@ import Features from "./Features/Features";
 import Founders from "./Founders/Founders";
 import Projects from "./Projects/Projects";
 import Testimonials from "./Testimonials/Testimonials";
+import TurningIdea from "./TurningIdea/TurningIdea";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Projects/>
             <WhyChooseUs/>
             <Testimonials/>
+            <TurningIdea/>
         </div>
     );
 };
