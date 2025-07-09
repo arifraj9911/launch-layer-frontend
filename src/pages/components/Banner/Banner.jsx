@@ -15,16 +15,25 @@ const Banner = () => {
             </span>
             🚀
           </h1>
-          <p className="text-gray-300 mt-4">
+          <p className="text-[#D1D1D1] mt-4">
             Transform your ideas into powerful digital products. From MVP
             development to full-scale launches, we're the founding team that
             gets startups off the ground.
           </p>
-          <div className="mt-6 flex gap-4">
-            <button className="bg-gradient-to-r from-[#eaa6bd] to-[#c287b8] text-white px-5 py-2 rounded-md">
+          <div className="mt-6 flex gap-6">
+             <button
+              style={{
+                background:
+                  "linear-gradient(164deg, #966C9E -6.9%, #F3B880 120.25%)",
+              }}
+              className=" text-white px-4 py-3 rounded-lg text-xl font-medium "
+            >
               Lets Talk
             </button>
-            <button className="border border-gray-400 text-white px-5 py-2 rounded-md">
+            <button
+              
+              className=" text-[#D1D1D1] px-4 py-3 rounded-lg text-xl font-medium border border-[rgba(255, 255, 255, 0.74)]"
+            >
               Get Started
             </button>
           </div>

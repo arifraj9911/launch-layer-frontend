@@ -46,10 +46,10 @@ const features = [
 
 const Features = () => {
   return (
-    <div className="py-16 text-white ">
+    <div className="py-16 text-white mt-10">
       <div className="max-w-7xl mx-auto ">
-        <h2 className="text-4xl font-bold text-center mb-4">What We Do</h2>
-        <p className="text-center text-gray-400 mb-12">
+        <h2 className="text-5xl font-bold text-center mb-4">What We Do</h2>
+        <p className="text-center text-lg text-[#D1D1D1] mb-12">
           We offer end-to-end digital solutions to help founders and businesses
           launch, grow, <br />
           and scale their digital presence.

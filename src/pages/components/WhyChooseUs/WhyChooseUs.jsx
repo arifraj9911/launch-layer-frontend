@@ -6,6 +6,7 @@ import deliveryIcon from "../../../assets/images/icons/delivery.svg";
 import strategyIcon from "../../../assets/images/icons/strategy.svg";
 import expertiseIcon from "../../../assets/images/icons/expertise.svg";
 import founderIcon from "../../../assets/images/icons/founder.svg";
+import BlurCorner from "../../ui/BlurCorner";
 
 const services = [
   {
@@ -36,7 +37,8 @@ const services = [
 
 const WhyChooseUs = () => {
   return (
-    <div className="py-16 relative overflow-hidden  text-white">
+    <div className="py-16 relative text-white mt-20">
+      <BlurCorner />
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-12 mb-8">
         {/* Left Section */}
         <div className="lg:w-1/2 text-center lg:text-left flex flex-col items-center gap-4">

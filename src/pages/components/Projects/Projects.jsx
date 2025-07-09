@@ -3,6 +3,7 @@ import ecommerceImg from "../../../assets/images/ecommerce.svg";
 import mobileImg from "../../../assets/images/mobile.svg";
 import healthImg from "../../../assets/images/health.svg";
 import aiImg from "../../../assets/images/ai.svg";
+import BlurCorner from "../../ui/BlurCorner";
 
 const projects = [
   {
@@ -37,7 +38,8 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="py-16 px-4 text-white">
+    <div className="py-16 px-4 text-white relative mt-20">
+      <BlurCorner right={true}/>
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <div>
