@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <div className="py-4 border-b border-white/10 ">
-      <div className="container mx-auto flex justify-between items-center px-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <h3 className="text-white text-[32px] font-semibold">Launch Layer</h3>
 

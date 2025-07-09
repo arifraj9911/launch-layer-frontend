@@ -4,9 +4,9 @@ import SharedLinearBg from "../../ui/sharedLinearBg";
 
 const Banner = () => {
   return (
-    <div className="relative mt-20 overflow-hidden">
+    <div className="relative mt-20 overflow-hidden ">
       {/* Content */}
-      <div className="relative z-10 px-8 md:px-20 grid grid-cols-3 items-center pb-32">
+      <div className="relative z-10  grid grid-cols-3 items-center pb-32 max-w-7xl mx-auto">
         <div className="text-white col-span-2">
           <h1 className="text-4xl md:text-[56px] font-bold leading-snug">
             We Don't Just Build Websites <br />
