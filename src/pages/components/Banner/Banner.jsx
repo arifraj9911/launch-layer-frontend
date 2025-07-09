@@ -1,5 +1,6 @@
-import SharedLinearBg from "../../ui/sharedLinearBg";
+
 import bannerSide from "../../../assets/images/banner_side.svg";
+import SharedLinearBg from "../../ui/sharedLinearBg";
 
 const Banner = () => {
   return (
