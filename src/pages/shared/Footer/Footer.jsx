@@ -2,10 +2,10 @@ const Footer = () => {
   return (
     <footer style={{
         background:'linear-gradient(103deg, #010101 4.72%, #3C2141 48.63%, #010101 92.2%)'
-    }} className="  py-12">
+    }} className="py-12">
       <div className="max-w-7xl mx-auto">
         {/* Top menu and social icons */}
-        <div className="flex flex-col md:flex-row justify-between items-center text-base mb-4">
+        <div className="flex flex-col-reverse gap-6 md:gap-0 md:flex-row justify-between items-center text-xs md:text-base mb-4 px-4 md:px-0">
           {/* Navigation */}
           <nav className="flex space-x-6 mb-4 md:mb-0 ">
             {["Home", "About Us", "Services", "Contact Us", "FAQ"].map((item) => (
@@ -75,17 +75,17 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="border-gray-500 my-12" />
+        <hr className="border-gray-500 my-8 md:my-12" />
 
         {/* Bottom area */}
         <div className="flex flex-col md:flex-row justify-between items-center text-base ">
-          <p className="font-normal">© 2024 Copyright, All right Reserved</p>
+          <p className="font-normal text-xs md:text-base hidden md:block">© 2024 Copyright, All right Reserved</p>
 
-          <h1 className="text-[56px] font-bold text-white my-2 md:my-0">
+          <h1 className="text-4xl md:text-[56px] font-bold text-white my-2 md:my-0">
             Launch Layer
           </h1>
 
-          <div className="flex space-x-4 font-normal">
+          <div className="flex space-x-4 font-normal mt-4 md:mt-0">
             <a
               href="#"
               className="underline hover:text-white"
@@ -102,6 +102,7 @@ const Footer = () => {
               Terms &amp; Condition
             </a>
           </div>
+          <p className="font-normal text-xs md:text-base block md:hidden mt-6">© 2024 Copyright, All right Reserved</p>
         </div>
       </div>
     </footer>

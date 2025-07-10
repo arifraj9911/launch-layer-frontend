@@ -20,8 +20,8 @@ const FeatureCard = ({ title, description, iconSrc, highlighted }) => {
         <div className="mb-[18px] w-14 h-14 bg-white rounded-full flex items-center justify-center">
           <img src={iconSrc} alt={title} className="w-8 h-8" />
         </div>
-        <h3 className="text-2xl font-semibold mb-2 text-white">{title}</h3>
-        <p className="text-lg text-gray-300">{description}</p>
+        <h3 className="text-[22px] md:text-2xl font-semibold mb-2 text-white">{title}</h3>
+        <p className="text-base md:text-lg text-gray-300">{description}</p>
       </div>
     </div>
   );

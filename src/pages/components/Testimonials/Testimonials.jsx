@@ -47,9 +47,9 @@ const testimonialData = [
 
 const Testimonials = () => {
   return (
-    <section  className="py-28 bg-black text-white ">
+    <section  className="py-16 md:py-28 bg-black text-white ">
       
-      <h2 className="text-3xl md:text-5xl font-bold text-center mb-10">
+      <h2 className="text-[32px] md:text-5xl font-bold text-center mb-6 md:mb-10">
         What Our{" "}
         <span className="bg-gradient-to-b from-[#966C9E] to-[#F3B880] bg-clip-text text-transparent">
           Clients Say

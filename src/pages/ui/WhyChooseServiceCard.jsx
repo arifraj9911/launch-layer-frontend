@@ -8,8 +8,8 @@ const WhyChooseServiceCard = ({ icon, title, description }) => {
 
       {/* Text content */}
       <div className="flex-1">
-        <h4 className="text-white text-2xl font-semibold mb-1">{title}</h4>
-        <p style={{ color: "rgba(255, 255, 255, 0.7)" }} className=" text-base">{description}</p>
+        <h4 className="text-white text-xl md:text-2xl font-semibold mb-1">{title}</h4>
+        <p style={{ color: "rgba(255, 255, 255, 0.7)" }} className=" text-sm md:text-base">{description}</p>
       </div>
     </div>
   );

@@ -38,13 +38,13 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="py-16 px-4 text-white relative mt-20">
+    <div className="py-8 md:py-16 px-4 text-white relative mt-10 md:mt-20 md:px-0">
       <BlurCorner right={true}/>
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
           <div>
-            <h2 className="text-[48px] font-bold mb-5">Featured Projects</h2>
-            <p className="text-[#D1D1D1] text-lg font-normal">
+            <h2 className="text-3xl md:text-[48px] font-bold mb-3 md:mb-5">Featured Projects</h2>
+            <p className="text-[#D1D1D1] text-base md:text-lg font-normal">
               Take a look at some of our recent work. Each project represents a
               successful <br /> launch and happy client.
             </p>
@@ -54,7 +54,7 @@ const Projects = () => {
               background:
                 "linear-gradient(183deg, #966C9E 50%, #F3B880 129.63%)",
             }}
-            className=" text-white px-[18px] py-4 rounded-lg text-xl font-medium "
+            className=" text-white px-3 md:px-[18px] py-2 md:py-4 rounded-lg text-sm md:text-xl font-medium mt-5 md:mt-0"
           >
             View All Projects
           </button>

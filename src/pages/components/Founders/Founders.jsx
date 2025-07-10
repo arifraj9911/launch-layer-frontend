@@ -24,7 +24,7 @@ const founderImages = [
 const Founders = () => {
   return (
     <div
-      className="py-10"
+      className="py-6 md:py-10"
       style={{
         background: "linear-gradient(180deg, #1E1A25 -13.98%, #71628B 129.42%)",
       }}
@@ -36,7 +36,7 @@ const Founders = () => {
         speed={50}
         gradient={false}
         pauseOnHover={true}
-        className="space-x-16"
+        className=""
       >
         {founderImages.map((logo, index) => (
           <img

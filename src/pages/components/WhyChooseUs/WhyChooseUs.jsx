@@ -37,20 +37,20 @@ const services = [
 
 const WhyChooseUs = () => {
   return (
-    <div className="py-16 relative text-white mt-20">
+    <div className="py-8 md:py-16 relative text-white mt-10 md:mt-20 px-4 md:px-0">
       <BlurCorner />
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-12 mb-8">
         {/* Left Section */}
-        <div className="lg:w-1/2 text-center lg:text-left flex flex-col items-center gap-4">
+        <div className="lg:w-1/2 text-left flex flex-col items-center gap-8 md:gap-4">
           {/* content */}
           <div>
-            <h2 className="text-[48px] font-bold mb-4">
+            <h2 className="text-4xl md:text-[48px] font-bold mb-4">
               Why Choose{" "}
               <span className="bg-gradient-to-b from-[#966C9E] to-[#F3B880] bg-clip-text text-transparent">
                 LaunchLayer
               </span>
             </h2>
-            <p className="text-[#D1D1D1] text-lg font-normal mb-10">
+            <p className="text-[#D1D1D1] text-sm md:text-lg font-normal mb-6 md:mb-10">
               Transform your ideas into powerful digital products. From MVP
               development to full-scale launches, we’re the founding team.
             </p>
@@ -59,14 +59,14 @@ const WhyChooseUs = () => {
                 background:
                   "linear-gradient(183deg, #966C9E 50%, #F3B880 129.63%)",
               }}
-              className=" text-white px-4 py-3 rounded-lg text-xl font-medium "
+              className=" text-white px-3 md:px-4 py-2 md:py-3 rounded-lg text-sm md:text-xl font-medium "
             >
               Learn More
             </button>
           </div>
 
           {/* image */}
-          <div className="w-3/5 h-auto">
+          <div className="md:w-3/5 h-auto">
             <img src={whyChooseImg} alt="why_choose" />
           </div>
         </div>
